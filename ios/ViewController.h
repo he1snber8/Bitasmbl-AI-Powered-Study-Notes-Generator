@@ -1,0 +1,1 @@
+// ios/ViewController.h\n#import <UIKit/UIKit.h>\n@interface ViewController : UIViewController\n@property (nonatomic, strong) IBOutlet UITextView *inputTextView;\n@property (nonatomic, strong) IBOutlet UITextView *notesTextView;\n@end
