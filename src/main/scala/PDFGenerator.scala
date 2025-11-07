@@ -1,0 +1,1 @@
+// src/main/scala/PDFGenerator.scala\nobject PDFGenerator{\n  def toPDF(text:String):Array[Byte] = {\n    // TODO: implement PDF creation using Java APIs; stub returns UTF-8 bytes for now\n    text.getBytes("UTF-8")\n  }\n}\n
