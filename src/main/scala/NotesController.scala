@@ -1,0 +1,1 @@
+// src/main/scala/NotesController.scala\nobject NotesController{\n  def saveNote(id:String, content:String):Unit = {\n    // TODO: write content to file or storage\n  }\n  def loadNote(id:String):String = ""\n}\n
