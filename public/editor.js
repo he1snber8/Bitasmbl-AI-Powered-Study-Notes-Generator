@@ -1,0 +1,1 @@
+// public/editor.js\nasync function saveNote(){\n  const content = document.getElementById('notes').innerText\n  await fetch('/notes/save',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({id:'tmp',content})})\n  alert('Saved')\n}\n// call saveNote() from UI (e.g., add a Save button)\n
