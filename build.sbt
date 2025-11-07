@@ -1,0 +1,1 @@
+// build.sbt\nname := \"study-notes-backend\"\nversion := \"0.1.0\"\nscalaVersion := \"2.13.10\"\n// use JDK libs for HTTP client/server to avoid extra frameworks
