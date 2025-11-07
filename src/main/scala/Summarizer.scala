@@ -1,0 +1,1 @@
+// src/main/scala/Summarizer.scala\nobject Summarizer{\n  def summarize(text:String):String = {\n    // TODO: call AI endpoint via java.net.HttpURLConnection or implement local algo\n    ""\n  }\n  def keywords(text:String):Seq[String] = Seq()\n}\n
