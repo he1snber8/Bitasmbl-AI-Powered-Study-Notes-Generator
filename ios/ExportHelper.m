@@ -1,0 +1,1 @@
+// ios/ExportHelper.m\n#import <Foundation/Foundation.h>\n@interface ExportHelper:NSObject\n+(void)exportText:(NSString*)text format:(NSString*)fmt;\n@end\n@implementation ExportHelper\n+(void)exportText:(NSString*)text format:(NSString*)fmt{ /* TODO: implement UIActivityViewController or write file and present share sheet */ }\n@end
