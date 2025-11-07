@@ -1,0 +1,1 @@
+// public/app.js\ndocument.getElementById('gen').onclick = async ()=>{\n  const text = document.getElementById('input').value\n  const res = await fetch('/summarize',{method:'POST',headers:{'Content-Type':'text/plain'},body:text})\n  const summary = await res.text()\n  document.getElementById('notes').innerText = summary\n}\n
