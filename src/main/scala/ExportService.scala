@@ -1,0 +1,1 @@
+// src/main/scala/ExportService.scala\nobject ExportService{\n  def exportText(text:String, format:String):Array[Byte] = {\n    if(format=="pdf") PDFGenerator.toPDF(text) else text.getBytes("UTF-8")\n  }\n}\n
